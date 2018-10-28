@@ -1,20 +1,15 @@
 # Memory Game Project
+The game checks how players are able to match cards in the fastest possible time. Each game play is rated at the end of the game.
 
-## Table of Contents
+## To Play Game
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+Clone files and navigate to index.html file and open in browser
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+Match all cards to win game. Keep an eye on the timer as you play.
 
-To get started, open `js/app.js` and start building out the app's functionality
+You are rated at the very end of each game session.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+Have fun. :)
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
