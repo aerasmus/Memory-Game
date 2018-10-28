@@ -87,8 +87,9 @@ h1 {
 
 .score-panel {
     text-align: left;
-    width: 345px;
-    margin-bottom: 10px;
+    width: 450px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .score-panel .stars {
@@ -103,7 +104,35 @@ h1 {
     display: inline-block;
 }
 
-.score-panel .restart {
+.score-panel .panel-right {
     float: right;
-    cursor: pointer;
+}
+
+.score-panel #restart {
+    float: right;
+    cursor: pointer;   
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 700px) {
+	.score-panel {
+        width: 90%;
+    }
+
+    .deck {
+        width: 95%;
+        padding: 20px;
+        min-height: 100vw;
+    }
+
+    .deck .card {
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .score-panel {
+        font-size: 20px;
+    }
 }
