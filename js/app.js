@@ -52,6 +52,7 @@ function checkOpenCards(){
             });
         });
     }
+
     openCards = [];
     incrementMove();
     if (solvedCount === 8){
