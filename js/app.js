@@ -59,6 +59,7 @@ function checkOpenCards(){
     }
 }
 
+
 // starts the timer
 function startTimer(){
     timeCount += 1;
@@ -74,6 +75,7 @@ function incrementMove(){
         reduceStar();
     }
 }
+
 
 // event handler for when the card is clicked
 function cardClick(event){
